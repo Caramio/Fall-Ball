@@ -1,10 +1,14 @@
-# Console Runner
+
+# Fall Ball
+
 #                                         ---------------------------GAME INFORMATION---------------------------
 
-Console Runner is a very simple runner game where the player collects certain controller parts while moving forward, as the player collects the parts they will decorate the controller and form a fully finished controller once all pieces are connected. Once the player reaches the end, they will play a simple Space Shooter game to end the level.
+Fall Ball is an endless falling game where the speed that the player falls gets higher as time goes on, the goal is to avoid the obstacles and fall for as long as possible.
 
+The game has controls for both PC and mobile platforms.
 
+The endless generation is done using two "Cylinder Systems" which consist of 5 different obstacle filled cylinders(laser obstacle cylinders, rotating terrain cylinders, shaped opening cylinders etc...) which are connected in a random order. The cylinders will move upwards, making it look like the player is falling down. each time one cylinder is passed through, once it is out of the players sight, it will be added to the end of the second cylinder that the player is now inside, this is how the endless falling is achieved.
 
 ##                                                              Video Demonstration
-  
-  **[Console Runner Prototype Game](https://youtu.be/O8MwPL8739M)**   
+
+  **[Fall Ball Game](https://youtu.be/uan0Fn-ANrk)**   
